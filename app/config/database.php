@@ -57,7 +57,7 @@ return array(
 			'host'      => getenv('DB_HOST'),
 			'database'  => getenv('DB_NAME'),
 			'username'  => getenv('DB_USERNAME'),
-			'password'  => getenv('BD_PASSWORD'),
+			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

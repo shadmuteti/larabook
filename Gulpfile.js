@@ -6,6 +6,7 @@ gulp.task('css', function()
 {
     gulp.src('app/assets/sass/main.css')
         .pipe(sass())
+        .pipe(autoprefixer('last 10 version'))
         .pipe(gulp.dest('public/css'));
 
 });
